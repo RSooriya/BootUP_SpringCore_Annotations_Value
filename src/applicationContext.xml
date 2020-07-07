@@ -11,6 +11,7 @@
      and registers with the spring container if it founds the class
      with @Component annotation -->
 <context:component-scan base-package="com.sooriya"/>  
+<!-- loading properties file  -->
 <context:property-placeholder location="classpath:sport.properties"/>
 </beans>
 

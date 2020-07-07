@@ -3,6 +3,7 @@ package com.sooriya;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+//@Value -> used to inject values read from properties file
 @Component
 public class CricketCoach implements Coach {
     @Value("${name}")
